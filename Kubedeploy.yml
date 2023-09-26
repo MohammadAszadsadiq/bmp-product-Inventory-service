@@ -1,0 +1,33 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: bmp-product-inventory-business-service
+  labels:
+    app: bmp-product-inventory-business-service
+    version: latest
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bmp-product-inventory-business-service
+      version: latest
+  template:
+    metadata:
+      name: bmp-product-inventory-business-service
+      labels:
+        app: bmp-product-inventory-business-service
+        version: latest
+    spec:
+      containers:
+      - name: bmp-product-inventory-business-service
+        image: 10.0.5.16:5000/bm/bmp-product-inventory-business-service:latest
+        args: ["--spring.profiles.active=onap"]
+        imagePullPolicy: Always
+      imagePullSecrets:
+      - name: onap
+        resources:
+          requests:
+            cpu: 200m
+            memory: 0.5Gi
+        ports:
+        - containerPort: 8104

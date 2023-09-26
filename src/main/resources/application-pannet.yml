@@ -1,0 +1,34 @@
+aml: AML
+date:
+    format: yyyy-MM-dd HH:mm:ss.SSS
+logging:
+    level:
+        com:
+            assignment:
+                springboot:
+                    mongo: DEBUG
+    pattern:
+        console: '%d{yyyy-MM-dd HH:mm:ss} - %msg%n'
+other:
+    onap:
+        services: OTHER ONAP SERVICES
+server:
+    port: 8104
+sim:
+    connectivity: SIM Connectivity
+    direct:
+        slice:
+            access: Direct_Slice_Access
+    material:
+        type: SIM_Material
+    product:
+        slice:
+            access: Product_Slice_Access
+slice: SLICE
+spring:
+    data:
+        mongodb:
+            database: BMP_PRODUCT_1
+            host: 172.29.1.114
+            port: 27017
+timeZone: UTC

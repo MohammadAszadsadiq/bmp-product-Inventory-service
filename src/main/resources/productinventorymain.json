@@ -1,0 +1,180 @@
+
+   {
+    "_id": "581d6284-bd6f-45b6-8d35-a328819d51c4",
+    "href": "http://10.0.5.35:30904/productInventoryManagement/v1/product/581d6284-bd6f-45b6-8d35-a328819d51c4",
+    "type": "SLICE",
+    "name": "Broadcasting_Ericsson",
+    "productSerialNumber": "PD01105",
+    "startDate": "1649240960",
+    "status": "Active",
+    "productSpecification": {
+      "_id": "PD01105",
+      "name": "Media Upload Access Q4"
+    },
+    "productOffering": {
+      "_id": "OF00926",
+      "name": "Media Production",
+      "referredType": "Simple"
+    },
+    "productOrder": [
+      {
+        "_id": "ORN-392145746551",
+        "referredType": "productOrder",
+        "orderItemId": "101",
+        "orderItemAction": "add",
+        "orderDate": "1649240960"
+      }
+    ],
+    "relatedParty": [
+      {
+        "_id": "000000000320",
+        "role": "Customer",
+        "name": "Priyanka P",
+        "referredType": "individualParty"
+      }
+    ],
+    "productCharacteristic": [
+      {
+        "name": "owning_system",
+        "value": "onap",
+        "isVisible": true,
+        "unitOfMeasurement": "na"
+      },
+      {
+        "name": "Slice AccessType",
+        "value": "Product",
+        "isVisible": true,
+        "unitOfMeasurement": "NA"
+      },
+      {
+        "name": "Slice Openness",
+        "value": "Public",
+        "isVisible": true,
+        "unitOfMeasurement": "NA"
+      },
+      {
+        "name": "showMap",
+        "value": "true",
+        "isVisible": false,
+        "unitOfMeasurement": "10"
+      },
+      {
+        "name": "reliablitiy",
+        "value": "99.999",
+        "isVisible": false,
+        "unitOfMeasurement": "NA"
+      },
+      {
+        "name": "sd",
+        "value": "0003",
+        "isVisible": false,
+        "unitOfMeasurement": "na"
+      },
+      {
+        "name": "latency",
+        "value": "20",
+        "isVisible": false,
+        "unitOfMeasurement": "NA"
+      },
+      {
+        "name": "cfs_specification_id",
+        "value": "a7030a82-d08c-4bbc-b8ac-0379b239304a",
+        "isVisible": false,
+        "unitOfMeasurement": "NA"
+      },
+      {
+        "name": "i_number_devices",
+        "value": "100",
+        "isVisible": true,
+        "unitOfMeasurement": "NA"
+      },
+      {
+        "name": "ProductAvailabilityTimeBound",
+        "value": "true",
+        "isVisible": false,
+        "unitOfMeasurement": "10"
+      },
+      {
+        "name": "cfs_name",
+        "value": "new_broadcast_service",
+        "isVisible": false,
+        "unitOfMeasurement": "NA"
+      },
+      {
+        "name": "Breakout-Location",
+        "value": "Rome, Berlin",
+        "isVisible": true,
+        "unitOfMeasurement": "NA"
+      },
+      {
+        "name": "sst",
+        "value": "01",
+        "isVisible": false
+      },
+      {
+        "name": "uplink",
+        "value": "100",
+        "isVisible": false,
+        "unitOfMeasurement": "NA"
+      },
+      {
+        "name": "profileID",
+        "value": "null",
+        "@type": "String",
+        "isVisible": true
+      },
+      {
+        "name": "qualityProfile",
+        "value": "null",
+        "@type": "String",
+        "isVisible": true
+      },
+      {
+        "name": "dnnlist",
+        "value": "null",
+        "@type": "String",
+        "isVisible": true
+      },
+      {
+        "name": "serviceInstanceId",
+        "value": "4959ecf4-b594-11ec-8ac1-6da9825ebfed",
+        "isVisible": true
+      },
+      {
+        "name": "profileId",
+        "value": "",
+        "isVisible": true
+      },
+      {
+        "name": "External_Status",
+        "value": "completed",
+        "isVisible": false
+      }
+    ],
+    "productPrice": [
+      {
+        "name": "oneTime",
+        "priceType": "oneTime",
+        "price": {
+          "taxIncludedAmount": {
+            "value": 99.99,
+            "unit": "Euros"
+          },
+          "percentage": 0,
+          "taxRate": 0
+        }
+      },
+      {
+        "priceType": "recuring",
+        "recurringChargePeriod": "Monthly",
+        "price": {
+          "taxIncludedAmount": {
+            "value": 99.99,
+            "unit": "Euros"
+          },
+          "percentage": 0,
+          "taxRate": 0
+        }
+      }
+    ]
+  }
